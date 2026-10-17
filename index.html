@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>প্রহরী ডাউনলোড</title>
+<style>
+  :root { --bg:#f4f7fb; --card:#fff; --text:#171c22; --muted:#5a6270; --blue:#1a5fb4; --navy:#082a4c; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0d1219; --card:#171d26; --text:#dee3eb; --muted:#aab2bf; --blue:#8ec2ff; } }
+  body { margin:0; background:var(--bg); color:var(--text); font-family: system-ui, -apple-system, "Noto Sans Bengali", sans-serif; line-height:1.55; }
+  main { max-width:640px; margin:0 auto; padding:24px 16px 48px; }
+  .card { background:var(--card); border-radius:18px; padding:20px; margin:16px 0; box-shadow:0 2px 12px rgba(0,0,0,.06); }
+  h1 { font-size:2rem; margin:8px 0 4px; color:var(--blue); }
+  .btn { display:inline-block; background:var(--blue); color:#fff; text-decoration:none; padding:14px 22px; border-radius:999px; font-weight:700; font-size:1.05rem; }
+  code { font-family: ui-monospace, Menlo, monospace; font-size:.85rem; word-break:break-all; background:rgba(127,127,127,.12); padding:2px 6px; border-radius:6px; }
+  ol li { margin:8px 0; } .muted { color:var(--muted); font-size:.92rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>প্রহরী</h1>
+  <p class="muted">বিজ্ঞাপন, ট্র্যাকার আর ক্ষতিকর সাইট আটকানোর অ্যান্ড্রয়েড অ্যাপ। Facebook মোড, YouTube মোড, আর নিজের ব্রাউজারসহ।</p>
+
+  <div class="card">
+    <p><strong>সংস্করণ 1.7.2</strong> · 3.1 MB · 2026-10-17</p>
+    <p><a class="btn" href="Prohori-1.7.2.apk" download>APK ডাউনলোড করুন</a></p>
+    <p class="muted">Android 9 বা তার পরের ফোনে চলে। Play Store-এ নেই, কারণ Google-এর নিয়মে VPN দিয়ে বিজ্ঞাপন আটকানো অ্যাপ সেখানে রাখা যায় না।</p>
+  </div>
+
+  <div class="card">
+    <h2>ইনস্টল করার নিয়ম</h2>
+    <ol>
+      <li>ওপরের বোতামে চেপে APK ডাউনলোড করুন।</li>
+      <li>ডাউনলোড হওয়া ফাইলটা খুলুন। ফোন বললে "এই উৎস থেকে ইনস্টলের অনুমতি দিন" চালু করুন।</li>
+      <li><strong>Play Protect সতর্ক করলে:</strong> "More details" → "Install anyway" চাপুন। এই সতর্কতা আসে কারণ অ্যাপটা Play Store-এর বাইরের, Google এটাকে চেনে না। Play Protect বন্ধ করার দরকার নেই।</li>
+      <li>প্রহরী খুলে ঢাল বাটন চাপুন, VPN অনুমতি দিন। ব্যস।</li>
+    </ol>
+    <p class="muted">আগের প্রহরী থাকলে ওপরেই ইনস্টল হবে, সেটিংস থাকবে।</p>
+  </div>
+
+  <div class="card">
+    <h2>ফাইলটা আসল কিনা মিলিয়ে নিন</h2>
+    <p>এই পাতা থেকে নামানো ফাইলের SHA-256 চেকসাম:</p>
+    <p><code>539979565f96bd2691d89ae9901867e1edc382f4620b3751ee2df97cbd9d2788</code></p>
+    <p class="muted">অন্য কোথাও থেকে পাওয়া APK-র চেকসাম এর সাথে না মিললে সেটা ইনস্টল করবেন না। ফোনে চেকসাম দেখতে যেকোনো "hash checker" অ্যাপ, কম্পিউটারে <code>shasum -a 256 Prohori-1.7.2.apk</code> (Mac/Linux) বা <code>certutil -hashfile Prohori-1.7.2.apk SHA256</code> (Windows)।</p>
+  </div>
+
+  <div class="card">
+    <h2>গোপনীয়তা</h2>
+    <p>প্রহরী আপনার কোনো তথ্য কোথাও পাঠায় না। ফিল্টার তালিকা আপডেট আর নতুন সংস্করণ আছে কিনা দেখা, এই দুটোই শুধু ইন্টারনেটে যায়; কোন সাইটে গেছেন সেটা ফোনের বাইরে যায় না।</p>
+  </div>
+</main>
+</body>
+</html>
